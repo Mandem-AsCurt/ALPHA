@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cstyle.css">
+    <title>CatPhotoApp</title>
+  </head>
+
+  <body>
+
+    <main>
+      <h1>CatPhotoApp</h1>
+
+      <section>
+        <h2 id="cat_photos">Cat Photos</h2>
+        <!-- TODO: Add link to cat photos -->
+        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+        <a href="https://freecatphotoapp.com"><img src="how-much-does-a-cat-cost.jpeg.webp"></a>
+      </section>
+
+      <section id="lists">
+        <h2 id="cat lists">Cat Lists</h2>
+        <h3 id="love">Things cats love:</h3>
+        <ul>
+          <li>Cat nip</li>
+          <li>Laser pointers</li>
+          <li>Lasagna</li>
+        </ul>
+        <figure>
+          <img src="lasagnabeeflite_1000x1000.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cats <em>love</em> lasagna.</figcaption>
+        </figure>
+        <h3 id="cat hate">Top 3 things cats hate:</h3>
+        <ol type="A">
+          <li>Flea treatment</li>
+          <li>Thunder</li>
+          <li>Other cats</li>
+        </ol>
+        <figure>
+          <img src="Hero Pedigree Cats.jpg" alt="Five cats looking around a field.">
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+        </figure>
+      </section>
+
+      <div class="posts">
+        <h2 class="news">News Feeds</h2>
+        <article class="blog-post">
+            <h2 class="username">@AsCurt03</h2>
+            <h3 class="post-time">Posted 15 mins ago.</h3>
+            <a href="cats.jpg" class="post-item"><img src="cats.jpg"></a>
+            <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel magni commodi maiores obcaecati dignissimos harum expedita cumque at dolorem minus.</p>
+        </article>
+        
+        <article class="blog-post">
+          <h2 class="username">@Mandem02</h2>
+          <h3 class="post-time">Posted 4hrs ago.</h3>
+          <a href="images.jpg" class="post-item"><img src="images.jpg"></a>
+          <p class="post-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet voluptatibus reiciendis provident unde qui non.</p>
+          <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, quos?</p>
+
+        </article>
+
+      </div>
+      
+      <section>
+        <h2>Cat Form</h2>
+        <form action="ascurtisse@gmail.com">
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="Cat Photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+      <div>
+      <textarea placeholder="Comment"></textarea>
+      </div>
+
+    </main>
+    <footer>
+      <p>
+        No Copyright - <a href="trail_1.html">Mandem AsCurt</a>
+      </p>
+    </footer>
+
+  </body>
+</html>
