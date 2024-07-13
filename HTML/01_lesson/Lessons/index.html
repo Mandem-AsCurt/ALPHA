@@ -1,0 +1,108 @@
+<!DOCTYPE html> <!--"! and and tab key will be used to create the  HTML backbone"-->
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Lessons Of HTML:5</title>
+    </head>
+
+    <body>
+        <h1 id="title">Lesson O1 Of HTML</h1>
+
+        <!--Let's start with inputs and forms tags then, shall we-->
+
+        <input type="text" placeholder="Text"> <!--This is the default input type in HTML-->
+        <button type="submit">Submit</button> <!--This input is used for submitting an answer-->
+        <input type="checkbox">Select</input><!--This input acts the same as the button, but with a check style-->
+        <input type="radio">Tick Me</input> <!--Same as the checkbox input but rounded-->
+        <input type="color"> <!--Use in selecting colors-->
+
+        <form>
+            <input type="email" placeholder="Enter your email" required>
+            <input type="password" placeholder="Enter your password" required> <!--For passwords-->
+            <button type="submit">Done</button>
+        </form>
+
+        <fieldset>
+            <input type="number" placeholder="Enter your any number">
+            <input type="datetime-local">
+            <input type="file">
+            <input type="tel" placeholder="Enter your telephone num">
+            <input type="range">
+        </fieldset>
+
+        <!--The marquee tag is used for slideshows-->
+        <legend><marquee>Comments Here</marquee></legend><textarea placeholder="Comments"></textarea>
+
+        <fieldset>
+            <legend>What is your proficiency?</legend>
+                <select>
+                    <option value="novice">Novice</option>
+                    <option value="amateur">Amateur</option>
+                    <option value="legend">Legend</option>
+                    <option value="godlike">Godlike</option>
+                    <option value="non-player">I don't play</option>
+                </select>
+
+                <legend>Enter Your Age.</legend>
+                    <input type="date">
+        </fieldset>
+
+
+        <!--Let's create a table with data-->
+        <div style="background-color: aqua;">
+        <table>
+            <thead>
+                <tr>
+                    <td>GAMES</td>
+                    <td>LEVEL</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Call Of Duty</td>
+                    <td>Amateur</td>
+                </tr>
+                <tr>
+                    <td>Konami Efootball</td>
+                    <td>Professional</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+
+        <!--Moving on to attributes, classes & ID's
+        Use class attribute more than the ID attribute.
+        Class are not unique but IDs are unique and must be used on unique tags or appear-once tags.
+        -->
+        
+        <div class="example">
+            <h2 class="example-title">This is an example</h2>
+                <p class="example-text">The main header (h1 = Lesson 01 Of HTML) contains an ID atttribute since it can only be used on this page once. The h2 (<u>This is an example</u>) tag contains the same class value, i.e "example", as this paragraph here. Any style I use using the class value will reflect on both the h2 header and this paragraph.
+                </p>
+                <!--An article can be used in place of a div and vice versa, there is also the section tag which can be used.An article and a section acts as a label whiles a div acts as a container.-->
+        </div>
+
+        <nav>
+            <!--The nav tag is used to create a navigation bar and acts exactly like a container -->
+            <ul class="nav-list">
+                <li class="nav-list-item">
+                    <a href="home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-list-item">
+                    <a href="/about" class="nav-link">About</a>
+                </li>
+                <li class="nav-list-item">
+                    <a class="nav-link" href="/news">News Feed</a>
+                </li>
+                <li class="nav-list-item">
+                    <a class="nav-link" href="/contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+    </body>
+
+</html>

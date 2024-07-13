@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#bar {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  margin: 20px;
+}
+ul li a {
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+p {
+  padding: 10px;
+}
+table, tr, th, td {
+    border: 1.0px solid black;
+    border-collapse: collapse;
+}
+td {
+    padding: 10px 0px 10px 0px ;
+}
